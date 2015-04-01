@@ -1,0 +1,15 @@
+
+import Numeric as N
+import math
+
+def vector(tuple):
+    ## numpy:
+    ##  return N.array(tuple, dtype=float)
+    
+    return N.array(tuple, N.Float)
+
+def norm(vector):
+    ## numpy:
+    ## return N.linalg.norm(vector)
+    return math.sqrt(sum(vector*vector))
+    
