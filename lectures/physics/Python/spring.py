@@ -18,6 +18,7 @@ t = 0
 state = array((20, 0, t), dtype=float)
 rstate = state.copy()
 mstate = state.copy()
+sympstate = state.copy()
 
 def xt(state): return (int(state[2]*5), int(state[0]+480/2))
 
@@ -34,6 +35,14 @@ def d(state):
     # dt/dt:
     dt = 1
     return array((dx,dv,dt),dtype=float)
+
+def symplectic(state, dt):
+    tempstate = state + d(state)*dt
+    newstate1 = state + d(state)*dt
+    newstate2 = state + d(tempstate)*dt
+    newstate = newstate1
+    newstate[1] = newstate2[1]
+    return newstate
     
 def midpoint(state, dt):
     k1 = d(state)
@@ -56,15 +65,18 @@ screen.blit(background, (0,0))
 running = 1
 while running:
     if t*5 < screen.get_width():
-        pygame.draw.circle(background, (255,0,0), xt(state), 1)
-        pygame.draw.circle(background, (0,255,0), xt(mstate), 1)
+        #pygame.draw.circle(background, (255,0,0), xt(state), 1)
+        #pygame.draw.circle(background, (0,255,0), xt(mstate), 1)
         #pygame.draw.circle(background, (0,0,255), xt(rstate), 1)
+        pygame.draw.circle(background, (255,255,0), xt(sympstate), 1)
         screen.blit(background, (0,0))
         t += dt
         mstate = midpoint(mstate, dt)
         rstate = rungekutta(rstate, dt)
-        state += d(state)*dt #/2.0
-        #state += d(state)*dt/2.0
+        sympstate = symplectic(sympstate, dt)
+        state += d(state)*dt
+        #for i in range(2):
+        #    state += d(state)*dt/2.0
         pygame.display.flip()
     else:
         running = 0

@@ -1,4 +1,5 @@
-\frametitle {Cross product (vector product)}\grph {false}{
+\frametitle{Cross product (vector product)}
+\grph{false}{
 \psset{Alpha=60,showpoints=true,arrows=->,drawCoor=true}
 \pstThreeDCoor
 \myvec{0.5,2.0,-0.5}
