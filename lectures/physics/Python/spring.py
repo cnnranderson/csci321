@@ -6,7 +6,12 @@ from pygame.locals import *
 from pygame.color import *
 from numpy import *
 
-def xt(state): return (int(state[2]*5), int(state[0]+480/2))
+def xt(state):
+    maxval = 9999
+    if abs(state[0]) < maxval:
+        return (int(state[2]*5), int(state[0]+480/2))
+    else:
+        return (int(state[2]*5), maxval)
 
 def d(state):
     global k,m
@@ -43,10 +48,11 @@ def verlet(state, dt):
         ddx, ddv, ddt = d(state)
         np = x + x - px + ddv*dt*dt
         newstate = array((np, 0, t+dt), dtype=float)
-        prevstate = newstate.copy()
+        prevstate = state.copy()
         # velocity not used:
         return newstate
     else:
+        prevstate = state.copy()
         return euler(state, dt)
 
 def euler(state, dt):
@@ -93,8 +99,9 @@ def main():
     while t*5 < screen.get_width():
         pygame.draw.circle(background, (255,0,0), xt(eulerstate), 1)
         pygame.draw.circle(background, (0,255,0), xt(midpointstate), 1)
-        #pygame.draw.circle(background, (0,0,255), xt(rungestate), 1)
-        #pygame.draw.circle(background, (255,255,0), xt(sympstate), 1)
+        pygame.draw.circle(background, (0,0,255), xt(rungestate), 1)
+        pygame.draw.circle(background, (0,255,255), xt(verletstate), 1)
+        pygame.draw.circle(background, (255,255,0), xt(sympstate), 1)
         screen.blit(background, (0,0))
         t += dt
         midpointstate = midpoint(midpointstate, dt)

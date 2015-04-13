@@ -22,7 +22,12 @@ rstate = state.copy()
 
 prevstate = None
 
-def xt(state): return (int(state[2]*5), int(state[0]+480/2))
+def xt(state):
+    maxval = 9999
+    if abs(state[0]) < maxval:
+        return (int(state[2]*5), int(state[0]+480/2))
+    else:
+        return (int(state[2]*5), maxval)
 
 def d(state):
     x, v, t = state
@@ -64,7 +69,7 @@ def verlet(state, prevstate, dt):
         return state + dt*d(state), state
 
 try:
-    dt = 0.5
+    dt = 1
 
     screen.blit(background, (0,0))
 
