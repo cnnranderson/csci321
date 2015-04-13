@@ -6,23 +6,10 @@ from pygame.locals import *
 from pygame.color import *
 from numpy import *
 
-pygame.init()
-screen = pygame.display.set_mode((640,480))
-background = pygame.Surface(screen.get_size())
-background.fill((128,128,255))
-  
-m = 10.0
-k = 4.0
-t = 0
-
-state = array((20, 0, t), dtype=float)
-rstate = state.copy()
-mstate = state.copy()
-sympstate = state.copy()
-
 def xt(state): return (int(state[2]*5), int(state[0]+480/2))
 
 def d(state):
+    global k,m
     x, v, t = state
     # force is proportional to displacement
     f = -k*x
@@ -36,12 +23,35 @@ def d(state):
     dt = 1
     return array((dx,dv,dt),dtype=float)
 
+evenodd = 0
 def symplectic(state, dt):
+    global evenodd
     tempstate = state + d(state)*dt
     newstate1 = state + d(state)*dt
     newstate2 = state + d(tempstate)*dt
     newstate = newstate1
-    newstate[1] = newstate2[1]
+    newstate[evenodd] = newstate2[evenodd]
+    evenodd = 1 - evenodd
+    return newstate
+
+prevstate = None
+def verlet(state, dt):
+    global prevstate
+    if prevstate!=None:
+        x,  v,  t  = state
+        px, pv, pt = prevstate
+        ddx, ddv, ddt = d(state)
+        np = x + x - px + ddv*dt*dt
+        newstate = array((np, 0, t+dt), dtype=float)
+        prevstate = newstate.copy()
+        # velocity not used:
+        return newstate
+    else:
+        return euler(state, dt)
+
+def euler(state, dt):
+    k = d(state)
+    newstate = state + k*dt
     return newstate
     
 def midpoint(state, dt):
@@ -57,40 +67,59 @@ def rungekutta(state, dt):
     k4 = d(state + k3 * dt)
     newstate = state + (k1 + 2*k2 + 2*k3 + k4) * dt/6.0
     return newstate
-  
-dt = 0.05
 
-screen.blit(background, (0,0))
+def main():
+    global k,m
+       
+    pygame.init()
+    screen = pygame.display.set_mode((640,480))
+    background = pygame.Surface(screen.get_size())
+    background.fill((128,128,255))
+    screen.blit(background, (0,0))
+    
+    m = 10.0
+    k = 4.0
+    t = 0
+    dt = 0.05
 
-running = 1
-while running:
-    if t*5 < screen.get_width():
-        #pygame.draw.circle(background, (255,0,0), xt(state), 1)
-        #pygame.draw.circle(background, (0,255,0), xt(mstate), 1)
-        #pygame.draw.circle(background, (0,0,255), xt(rstate), 1)
-        pygame.draw.circle(background, (255,255,0), xt(sympstate), 1)
+    startstate = array((20,0,t), dtype=float)
+    eulerstate = startstate.copy()
+    rungestate = startstate.copy()
+    midpointstate = startstate.copy()
+    verletstate = startstate.copy()
+    sympstate = startstate.copy()
+
+    running = 1
+    while t*5 < screen.get_width():
+        pygame.draw.circle(background, (255,0,0), xt(eulerstate), 1)
+        pygame.draw.circle(background, (0,255,0), xt(midpointstate), 1)
+        #pygame.draw.circle(background, (0,0,255), xt(rungestate), 1)
+        #pygame.draw.circle(background, (255,255,0), xt(sympstate), 1)
         screen.blit(background, (0,0))
         t += dt
-        mstate = midpoint(mstate, dt)
-        rstate = rungekutta(rstate, dt)
+        midpointstate = midpoint(midpointstate, dt)
+        rungestate = rungekutta(rungestate, dt)
         sympstate = symplectic(sympstate, dt)
-        state += d(state)*dt
-        #for i in range(2):
-        #    state += d(state)*dt/2.0
+        verletstate = verlet(verletstate, dt)
+        steps = 1
+        for i in range(steps):
+            eulerstate += d(eulerstate)*(dt/steps)
         pygame.display.flip()
-    else:
-        running = 0
-
-clock = pygame.time.Clock()
-
-waiting = 1
-while waiting:
-    clock.tick(30)
-    for event in pygame.event.get():
-        if event.type == QUIT:
-            waiting = 0
-        elif event.type == KEYDOWN and event.key == K_ESCAPE:
-            waiting = 0
             
-pygame.quit()
+    clock = pygame.time.Clock()
+
+    waiting = 1
+    while waiting:
+        clock.tick(30)
+        for event in pygame.event.get():
+            if event.type == QUIT:
+                waiting = 0
+            elif event.type == KEYDOWN and event.key == K_ESCAPE:
+                waiting = 0
+
+if __name__ == '__main__':
+    try:
+        main()
+    finally:
+        pygame.quit()
 
