@@ -249,10 +249,15 @@ Readings:
 
 \bframe{Midpoint Method}
 
+%\begin{eqnarray*}
+%\vec{k}_1 &=&  v(t, \vec{x}_n)\Delta t\\
+%\vec{k}_2 &=& v(t+\frac{1}{2}\Delta t, \vec{x}_n+
+%                     \frac{1}{2}\vec{k}_1)\Delta t \\
+%\vec{x}_{n+1} &=& \vec{x}_n + \vec{k}_2 
+%\end{eqnarray*}
 \begin{eqnarray*}
-\vec{k}_1 &=&  v(t, \vec{x}_n)\Delta t\\
-\vec{k}_2 &=& v(t+\frac{1}{2}\Delta t, \vec{x}_n+
-                     \frac{1}{2}\vec{k}_1)\Delta t \\
+\vec{k}_1 &=&  d(\vec{x}_n)\Delta t\\
+\vec{k}_2 &=& d(\vec{x}_n+\frac{1}{2}\vec{k}_1)\Delta t \\
 \vec{x}_{n+1} &=& \vec{x}_n + \vec{k}_2 
 \end{eqnarray*}
 
@@ -317,7 +322,6 @@ Midpoint method has errors $O(\Delta t^3)$
 \end{frame}
 
 \bframe{Midpoint Method}
-
 
 \begin{center}
 \begin{pspicture}[unit=0.75cm,showgrid=false](-1,-1)(10,6)
@@ -475,14 +479,27 @@ $t$ & $x$ & $v$ & $a$ \\\hline
 \bigskip \hfill Then add all the ``half-derivative.''
 \end{frame}
 
+%\bframe{ Fourth Order Runge-Kutta}
+%\begin{eqnarray*}
+%\vec{k}_1 &=& v(t,\vec{x}_n)\Delta t \\
+%\vec{k}_2 &=& v(t + \frac{1}{2}\Delta t, \vec{x}_n +
+%\frac{1}{2}\vec{k}_1 )\Delta t \\
+%\vec{k}_3 &=& v(t+\frac{1}{2}\Delta t,  \vec{x}_n +
+%\frac{1}{2}\vec{k}_2 )\Delta t \\
+%\vec{k}_4 &=& v(t+\Delta t,  \vec{x}_n + \vec{k}_3 )\Delta t \\
+%\vec{x}_{n+1} &=& \vec{x}_n + \frac{\vec{k}_1}{6}
+%+ \frac{\vec{k}_2}{3}
+%+ \frac{\vec{k}_3}{3}
+%+ \frac{\vec{k}_4}{6}
+%\end{eqnarray*}
+%\end{frame}
+
 \bframe{ Fourth Order Runge-Kutta}
 \begin{eqnarray*}
-\vec{k}_1 &=& v(t,\vec{x}_n)\Delta t \\
-\vec{k}_2 &=& v(t + \frac{1}{2}\Delta t, \vec{x}_n +
-\frac{1}{2}\vec{k}_1 )\Delta t \\
-\vec{k}_3 &=& v(t+\frac{1}{2}\Delta t,  \vec{x}_n +
-\frac{1}{2}\vec{k}_2 )\Delta t \\
-\vec{k}_4 &=& v(t+\Delta t,  \vec{x}_n + \vec{k}_3 )\Delta t \\
+\vec{k}_1 &=& d(\vec{x}_n)\Delta t \\
+\vec{k}_2 &=& d(\vec{x}_n + \frac{1}{2}\vec{k}_1 )\Delta t \\
+\vec{k}_3 &=& d(\vec{x}_n + \frac{1}{2}\vec{k}_2 )\Delta t \\
+\vec{k}_4 &=& d(\vec{x}_n + \vec{k}_3 )\Delta t \\
 \vec{x}_{n+1} &=& \vec{x}_n + \frac{\vec{k}_1}{6}
 + \frac{\vec{k}_2}{3}
 + \frac{\vec{k}_3}{3}
@@ -561,8 +578,49 @@ Reading:
 \end{itemize}
 \end{frame}
 
-\bframe{Verlet Integration}
+\bframe{Symplectic Euler/Semi-implicit Euler}
+\begin{itemize}
+\item \url{http://en.wikipedia.org/wiki/Semi-implicit_Euler_method}
+\item Two forms:
+\begin{eqnarray*}
+v_{n+1} &=& v_{n} + a_{n}\Delta t\\
+p_{n+1} &=& p_{n} + v_{n+1}\Delta t
+\end{eqnarray*}
+and
+\begin{eqnarray*}
+p_{n+1} &=& p_{n} + v_{n}\Delta t\\
+v_{n+1} &=& v_{n} + a_{n+1}\Delta t
+\end{eqnarray*}
+\item Can use either one by itself, or alternate between them.
+\item Not accurate, but almost conserves energy.
+\item Easy to program when updates are by assignment.
+\end{itemize}
+\end{frame}
 
+\bframe{Verlet Integration}
+\begin{itemize}
+\item Begin with symplectic Euler
+\begin{eqnarray*}
+v_{n+1} &=& v_{n} + a_{n}\Delta t\\
+p_{n+1} &=& p_{n} + v_{n+1}\Delta t
+\end{eqnarray*}
+\item Substitute for $v_{n+1}$
+\begin{eqnarray*}
+v_{n+1} &=& v_{n} + a_{n}\Delta t\\
+p_{n+1} &=& p_{n} + (v_{n} + a_{n}\Delta t)\Delta t\\
+       &=& p_{n} + v_{n}\Delta t + a_{n}\Delta t^2
+\end{eqnarray*}
+\item Use old positions to approximate $v_n\Delta t \approx p_n - p_{n-1}$
+\begin{eqnarray*}
+p_{n+1} &=& p_{n} + v_{n}\Delta t + a_{n}\Delta t^2\\
+       &=& p_{n} + (p_{n} - p_{n-1}) + a_{n}\Delta t^2\\
+       &=& 2p_{n} - p_{n-1} + a_{n}\Delta t^2
+\end{eqnarray*}
+\item This is {\em velocityless Verlet}.  There are other versions.
+\end{itemize}
+\end{frame}
+
+\bframe{Verlet Integration}
 \begin{itemize}
 \item A Verlet based approach for 2D game physics (\url{www.gamedev.net})
 
@@ -572,17 +630,18 @@ Reading:
 {\tiny\url{http://gamedev.tutsplus.com/tutorials/implementation/simulate-fabric-and-ragdolls-with-simple-verlet-integration/}}
 \item Can be used as the basis of a collision response system.
 \item Run {\tt VerletPhysicsDemo.py}
-\item True elastic collisions:
-\url{http://en.wikipedia.org/wiki/Elastic_collision}
+\end{itemize}
+\end{frame}
+
+
+\bframe{True elastic collisions}
+\begin{itemize}
+\item \url{http://en.wikipedia.org/wiki/Elastic_collision}
 \item Run {\tt BouncingBalls.py}
 \end{itemize}
 
 \end{frame}
 
-
-\bframe{Symplectic Euler}
-\url{http://en.wikipedia.org/wiki/Semi-implicit_Euler_method}
-\end{frame}
 
 
 \bframe{Advanced collision techniques}
