@@ -8,7 +8,7 @@ from pygame.color import *
 from numpy import *
 
 pygame.init()
-screen = pygame.display.set_mode((1200,900))
+screen = pygame.display.set_mode((800,600))
 background = pygame.Surface(screen.get_size())
 background.fill((128,128,255))
 

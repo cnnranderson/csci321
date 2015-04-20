@@ -1,4 +1,5 @@
 \documentclass[handout,t,compress]{beamer}
+\usepackage{etex}
 \usetheme{Singapore}
 
 \sloppy
@@ -8,11 +9,15 @@
 \usepackage{fp-eval}
 \usepackage{hyperref}
 \usepackage{fancyvrb}
+\usepackage{multicol}
 \usepackage{pstricks,pst-node,pst-tree,pst-plot,pst-3dplot,multido}
 \usepackage{graphicx}
 
 \usepackage{alltt}
 
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ii}{\item}
+\newcommand{\ei}{\end{itemize}}
 
 \newcommand{\bframe}[1]{\begin{frame}[fragile]{#1}}
 
@@ -92,8 +97,13 @@ Reading:
 
 \end{frame}
 
-\bframe{Dot vector to point with inward pointing normal}
+\bframe{Is a point inside a polygon?}
 \includegraphics[scale=0.75]{Figures/lander01/lander_figure_01.png}
+\bi
+\ii Dot vector to point with inward pointing normal.
+\ii Polygons usually have a consistent winding direction.
+\ii How can you quickly find the inward pointing normal?
+\ei
 \end{frame}
 \bframe{Does not work with concave polygons}
 \includegraphics[scale=0.75]{Figures/lander01/lander_figure_02.png}
@@ -107,17 +117,30 @@ Reading:
 Or check even/odd intercepts.
 \end{frame}
 \bframe{Keeping at arm's length}
+\begin{multicols}{2}
 \includegraphics[scale=0.75]{Figures/lander01/lander_figure_05.png}
-\[
-n = p_1 + (p_2-p_1)\frac{B\cdot A}{(B\cdot A) + (C \cdot A)}
-\]
 
+\columnbreak
+
+\begin{eqnarray*}
+A &=& p_2 - p_1\\
+B &=& t - p_1\\
+C &=& t - p_2\\
+n &=& p_1 + A\frac{B\cdot A}{(B\cdot A) + (C \cdot A)}\\
+\\
+A_{norm} &=& \frac{A}{|A|}\\
+n &=& p1 + A_{norm}(B\cdot A_{norm})
+\end{eqnarray*}
+\end{multicols}
 \end{frame}
 \bframe{Bounding spheres}
 \includegraphics[scale=0.75]{Figures/lander01/lander_figure_06.png}
 \end{frame}
 \bframe{Find a separating plane}
 \includegraphics[scale=0.75]{Figures/lander01/lander_figure_07.png}
+\bi
+\ii See notes on Verlet integration.
+\ei
 \end{frame}
 
 
@@ -141,7 +164,7 @@ n = p_1 + (p_2-p_1)\frac{B\cdot A}{(B\cdot A) + (C \cdot A)}
 \bframe{In 3D may not be a separating face}
 \includegraphics[scale=0.75]{Figures/lander02/lander_figure_07.png}
 
-Need to check point-edge combinations as well.
+\bi\ii Need to check point-edge combinations as well.\ei
 \end{frame}
 \bframe{Other points}
 \begin{itemize}
@@ -185,6 +208,7 @@ Need to check point-edge combinations as well.
 \end{frame}
 \bframe{Curved objects}
 \includegraphics[scale=0.75]{Figures/bobic01/bobic_09.png}
+\bi\ii Approximate with linear objects \ei
 \end{frame}
 
 
@@ -221,7 +245,7 @@ Need to check point-edge combinations as well.
 
 \bframe{Use a Library}
 \begin{itemize}
-\item  \url{http://code.google.com/p/pymunk/}
+\item  \url{http://www.pymunk.org/}
 \item \url{http://bulletphysics.org/}
 \end{itemize}
 \end{frame}

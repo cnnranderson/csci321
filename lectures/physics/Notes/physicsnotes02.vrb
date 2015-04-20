@@ -1,4 +1,6 @@
-\frametitle{Use a Library}
+\frametitle{True elastic collisions}
 \begin{itemize}
-\item PyMunk: \url{http://code.google.com/p/pymunk/}
+\item \url{http://en.wikipedia.org/wiki/Elastic_collision}
+\item Run {\tt BouncingBalls.py}
 \end{itemize}
+
