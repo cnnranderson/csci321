@@ -1,0 +1,15 @@
+\frametitle{Search}
+\begin{itemize}
+\item Uninformed search:
+\begin{itemize}
+\item Depth first search
+\item Breadth first search
+\item Iterative deepening
+\end{itemize}
+\item Informed search:
+\begin{itemize}
+\item Uniform cost (Dijkstra's)
+\item Greedy
+\item $A^*$ (A-star)
+\end{itemize}
+\end{itemize}
