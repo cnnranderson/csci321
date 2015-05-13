@@ -158,7 +158,7 @@ def main():
                         m.changeState(S.Wait())
                 elif event.key == K_w:
                     dtext = "Wander"
-                    text = font.render(dtext, 1, textcolor)                    f
+                    text = font.render(dtext, 1, textcolor)                    
                     for m in dinos:
                         m.changeState(S.Wander())
                 elif event.key == K_s:

@@ -1,15 +1,5 @@
-\frametitle{Search}
+\frametitle{Resources}
 \begin{itemize}
-\item Uninformed search:
-\begin{itemize}
-\item Depth first search
-\item Breadth first search
-\item Iterative deepening
-\end{itemize}
-\item Informed search:
-\begin{itemize}
-\item Uniform cost (Dijkstra's)
-\item Greedy
-\item $A^*$ (A-star)
-\end{itemize}
+\item \url{http://aima.cs.berkeley.edu/}
+\item \url{http://www.barnesandnoble.com/w/introduction-to-game-development-second-edition-steve-rabin/1101415043?ean=9781584506799}
 \end{itemize}
