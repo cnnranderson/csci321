@@ -101,16 +101,16 @@ def main():
     w,h = world_size
 
     # Blocks
+    if (True):
+        b = Block((0,0))
+        bw, bh = b.rect.size
 
-    b = Block((0,0))
-    bw, bh = b.rect.size
-
-    for x in range(0,w,bw):
-        blocks.add(Block((x,0)))
-        blocks.add(Block((x,h-bh)))
-    for y in range(bh,h-bh,bh):
-        blocks.add(Block((0,y)))
-        blocks.add(Block((w-bw,y)))
+        for x in range(0,w,bw):
+            blocks.add(Block((x,0)))
+            blocks.add(Block((x,h-bh)))
+        for y in range(bh,h-bh,bh):
+            blocks.add(Block((0,y)))
+            blocks.add(Block((w-bw,y)))
 
     # Mobs
     

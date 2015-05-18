@@ -48,7 +48,7 @@ class Player(AutoObject):
     wpos, hpos = 0.5, 0.7  # rel pos for center of rect in image
     wfrac, hfrac = 0.3, 0.2 # rel size of rect to image
     
-    def __init__(self, name, pos, maxspeed=PLAYER_MAXSPEED):
+    def __init__(self, name, pos, maxspeed=PLAYER_MAXSPEED, screen=None):
         AutoObject.__init__(self, pos)
 
         # Image and rect vars
@@ -161,11 +161,11 @@ class Player(AutoObject):
     def draw(self, screen):
         if self.showbox:
             pygame.draw.rect(screen, (255,0,0), self.rect, 1) 
-            pygame.draw.rect(screen, (255,125,125), (self.topleft,self.imagesize),  1)
+            #pygame.draw.rect(screen, (255,125,125), (self.topleft,self.imagesize),  1)
         if self.showheading:
             pos = self.rect.center
             endpos = pos + 20*self.velocity
-            pygame.draw.line(screen, (0,0,255), pos, endpos, 10)
+            pygame.draw.line(screen, (0,0,255), pos, endpos, 2)
             if self.state == S.Wander():
                 col = (200,200,100)
                 wcent = V.integer(pos + WANDER_OFFSET*self.heading)

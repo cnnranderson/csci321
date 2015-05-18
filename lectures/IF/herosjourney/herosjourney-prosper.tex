@@ -1,0 +1,833 @@
+\documentclass[a4paper,azure,pdf,colorBG,slideColor]{prosper}
+
+\usepackage{pstricks,pst-node,pst-tree,pst-text}
+\usepackage{graphicx}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textwidth}{9in}
+\setlength{\oddsidemargin}{-1in}
+\setlength{\evensidemargin}{-1in}
+
+\newcommand{\ns}[1]{\vfill \end{slide}\begin{slide}{#1}}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{\psshadowbox{#1}}
+\newcommand{\sk}{\vspace{0.2in}}
+\newcommand{\bs}{\bigskip}
+\newcommand{\ms}{\medskip}
+
+
+\title{The Hero's Journey}
+
+\author{Geoffrey Matthews}
+\institution{Western Washington University}
+
+\begin{document}
+\maketitle
+
+\begin{slide}{References}
+\bi
+\item {\em The Hero with a Thousand Faces}, Joseph Campbell
+\item {\em The Writer's Journey}, 2nd ed., Christopher Vogler
+\item {\em Save the Cat!}, Blake Snyder
+\item {\em Level Up!}, Scott Rogers
+\ei
+
+\ns{Sigmund Freud}
+{\sf  \em
+The truths contained in religious doctrines are after all so distorted
+and systematically disguised that the mass of humanity cannot
+recognize them as truth.  The case is similar to what happens when we
+tell a child that new-born babies are brought by the stork.  Here,
+too, we are telling the truth in symbolic clothing, for we know what
+the large bird signifies.
+}
+
+\ns{Stock Characters}
+
+\bi
+\item Whore with a heart of gold
+\item Arrogant West Point Lieutenant (Westerns)
+\item Good Cop/Bad Cop ({\em Lethal Weapon, Beverly Hills Cop})
+\item Tough but Fair Sergeant (War Movies)
+\item Young man on the rise
+\item Good girl tempted
+\item Clever and resourceful child
+\item The sex goddess
+\item The hunk
+\ei
+
+\ns{Stock Actors}
+\bi
+\item Isn't Russell Crowe  Errol Flynn?
+\item Isn't Jim Carrey  Jerry Lewis?
+\item Isn't Tom Hanks  Jimmy Stewart?
+\item Isn't Sandra Bullock  Rosalind Russell?
+\ei
+
+
+\ns{The Archetypes, \em Carl Jung}
+
+\bi
+\item Hero
+\item Mentor
+\item Threshold Guardian
+\item Herald
+\item Shapeshifter
+\item Shadow
+\item Trickster
+\ei
+
+\ns{Function of the Archetypes}
+
+\bi
+\item
+The hero encounters all aspects of his or her own personality
+through the course of the story.
+\item
+We consider life from all possible points of view.
+\ei
+
+\ns{Heroes}
+\bi
+\item Normal heroes: Shrek, Luke Skywalker, James Bond
+\item Cynical heroes: Rick in {\em Casablanca}
+\item Tragic heroes: Macbeth, Scarface.
+\item Catalyst heroes: Axel Foley in {\em Beverly Hills Cop}
+\ei 
+
+\ns{Mentors}
+\bi
+\item Mentor from the {\em Odyssey}
+\item Merlin
+\item Gandalf
+\item Obi Wan Kenobi
+\item Morpheus
+\item M and Q
+\item Jiminy Cricket
+\item Donkey in {\em Shrek}
+\item The ``best friend''
+\item Internalized, film noir voice
+\ei
+
+\ns{Threshold Guardians}
+\bi
+\item The dragon
+\item The troll under the bridge
+\item The sphinx
+\item The poppies in {\em Wizard of Oz}
+\item The flying monkeys, ``Oh-ee-oh, oh-EE-oh!''
+\ei
+
+\ns{Herald}
+\bi
+\item Hamlet's father's ghost
+\item Macbeth's witches
+\item ``If you build it, they will come.''
+\item Hermes
+\item A treasure map
+\item A phone call
+\ei
+
+\ns{Shapeshifter}
+\bi
+\item The wicked queen in {\em Snow White}
+\item Iago
+\item Macbeth's witches
+\item Han Solo
+\item Love interests are usually shapeshifters.
+\item The femme fatale
+\ei
+
+\ns{Shadow}
+\bi
+\item Hannibal in {\em Silence of the Lambs}
+\item Darth Vader
+\item Captain Hook
+\item Dracula
+\item SPECTRE
+\item Satan
+\ei
+
+\ns{Trickster}
+\bi
+\item Loki
+\item Anansi
+\item Raven
+\item Coyote
+\item B'rer Rabbit
+\item Bugs Bunny
+\item Captain Jack Sparrow
+\ei
+
+\ns{Changing Archetypes}
+\bi
+\item Gunga Din starts as Trickster, becomes Hero.
+\item Obi Wan Kenobi starts as Mentor, becomes Hero.
+\item Hero becomes shapeshifter in {\em Sister Act}
+\item Hero becomes trickster in {\em Beverly Hills Cop}
+\item Hero becomes shadow in {\em Dr.~Jekyll and Mr.~Hyde}
+\ei
+
+\ns{The Hero's Journey}
+\begin{pspicture}(0,0)(0,0)
+\rput(9,-2){\resizebox{1.25in}{!}{\includegraphics{herowithathousandfaces.eps}}}
+\end{pspicture}
+\vspace{-0.5cm}
+{\footnotesize
+\begin{enumerate}
+\item Ordinary World
+\item Call to Adventure
+\item Refusal of the Call
+\item Meeting with the Mentor
+\item Crossing the First Threshold
+\item Tests, Allies, Enemies
+\item Approach to the Inmost Cave
+\item Ordeal
+\item Reward
+\item The Road Back
+\item Resurrection
+\item Return with the Elixir
+\end{enumerate}
+}
+
+
+
+
+\ns{Ordinary World}
+
+OWEN: You must understand I need you here, Luke.
+\bigskip
+
+LUKE: But it's a whole 'nother year.
+\bigskip
+
+OWEN: Look, it's only one more season.
+\bigskip
+
+
+LUKE: Yeah, that's what you said last year when Biggs and Tank left.
+\bigskip
+
+AUNT BERU: Where are you going?
+\bigskip
+
+LUKE: It looks like I'm going nowhere. I have to finish cleaning those
+droids.
+
+\ns{Call to Adventure}
+
+LEIA: Help me, Obi-Wan Kenobi. You're my only hope. Help me, Obi-Wan
+Kenobi. You're my only hope.
+\bigskip
+
+THREEPIO: Oh, he says it's nothing, sir. Merely a malfunction. Old
+data. Pay it no mind.
+\bigskip
+
+
+LUKE: Who is she? She's beautiful.
+
+
+
+\ns{Meeting with the Mentor}
+
+
+LUKE: What happened?
+
+\bs
+
+BEN: Rest easy, son, you've had a busy day. You're fortunate you're
+still in one piece.
+
+\bs
+
+LUKE: Ben? Ben Kenobi! Boy, am I glad to see you! 
+
+\bs
+
+BEN: The Jundland wastes are not to be traveled lightly. Tell me young
+Luke, what brings you out this far?
+
+
+\ns{Refusal of the Call}
+
+\bs
+
+LUKE: I can't get involved! I've got work to do! It's not that I like
+the Empire. I hate it! But there's nothing I can do about it right
+now. It's such a long way from here.
+
+\bs
+
+BEN: That's your uncle talking.
+
+
+
+\ns{Crossing the First Threshold}
+{\small
+
+TROOPER: Let me see your identification.
+
+\ms
+
+BEN: You don't need to see his identification.
+
+\ms
+
+TROOPER: We don't need to see his identification.
+
+\ms
+
+BEN: These are not the droids your looking for.
+
+\ms
+
+TROOPER: These are not the droids we're looking for.
+
+\ms
+
+BEN: He can go about his business.
+
+\ms
+
+TROOPER: You can go about your business.
+
+\ms
+
+BEN: (to Luke) Move along.
+
+\ms
+
+TROOPER: Move along. Move along.
+}
+
+\ns{Tests, Allies, Enemies}
+
+\bs
+
+BEN: This is Chewbacca. He's first-mate on a ship that might suit our
+needs.
+
+...
+
+\bs
+
+HAN: It's the ship that made the Kessel run in less than twelve
+parsecs!
+
+...
+
+\bs
+
+
+LEIA: Governor Tarkin, I should have expected to find you holding
+Vader's leash. I recognized your foul stench when I was brought on
+board.
+
+
+
+\ns{Approach to the Inmost Cave}
+
+LUKE: Look at him. He's headed for that small moon.
+
+\bs
+
+HAN: I think I can get him before he gets there...he's almost in
+range.
+
+\bs
+
+BEN: That's no moon! It's a space station.
+
+\bs
+
+HAN: It's too big to be a space station.
+
+\bs
+
+LUKE: I have a very bad feeling about this.
+
+\ns{Ordeal}
+
+HAN: (sarcastically) Oh! The garbage chute was a really wonderful
+idea. What an incredible smell you've discovered! 
+
+...
+
+\bs
+
+LUKE: There's something alive in here!
+
+\bs
+
+HAN: That's your imagination.
+
+\bs
+
+LUKE: Something just moved past my leg! Look! Did you see that?
+
+\bs
+
+HAN: What?
+
+\bs
+
+LUKE: Help!
+
+
+
+\ns{Reward}
+
+\bs
+
+BEN'S VOICE: Run, Luke! Run!
+
+
+
+\ns{The Road Back}
+
+
+DODONNA: Only a precise hit will set up a chain reaction. The shaft is
+ray-shielded, so you'll have to use proton torpedoes.
+
+\bs
+
+WEDGE: That's impossible, even for a computer.
+
+\bs
+
+LUKE: It's not impossible. I used to bull's-eye womp rats in my
+T-sixteen back home. They're not much bigger than two meters.
+
+\ns{Resurrection}
+
+
+BEN'S VOICE: Use the Force, Luke.
+
+...
+\bs
+
+INTERIOR: DARTH VADER'S COCKPIT.
+
+\bs
+
+VADER: I have you now.
+
+\bs
+
+           He pushes the fire buttons.
+
+\bs
+
+VADER: What?
+
+\bs
+
+
+INTERIOR: MILLENNIUM FALCON -- COCKPIT.
+
+\bs
+
+HAN: (yelling) Yahoo!
+
+
+
+\ns{Return with the Elixir}
+
+
+INTERIOR: MASSASSI OUTPOST -- MAIN HANGAR.
+
+\bs
+
+Luke climbs out of his starship fighter and is cheered by a
+throng of ground crew and pilots. Luke climbs down the ladder
+as they all welcome him with laughter, cheers, and shouting.
+Princess Leia rushes toward him.
+
+\bs
+
+LEIA: Luke! Luke! Luke!
+
+
+
+
+\ns{The Hero's Journey}
+
+\begin{pspicture}[showgrid=false,unit=0.75cm](0,0)(14,8)
+\psset{linecolor=cyan}
+\psline(0,5)(14,5)
+\psline(5,5)(5,2)
+\psline(9,5)(9,2)
+\rput(2,3){\color{white}\small\bf Act I}
+\rput(7,3){\color{white}\small\bf Act II}
+\rput(12,3){\color{white}\small\bf Act III}
+
+\psline[linestyle=dashed](6.5,5)(6.5,10)
+\psline[linestyle=dashed](9.5,5)(9.5,10)
+\psline[linestyle=dashed](10.5,5)(10.5,10)
+\psline[linestyle=dashed](13.5,5)(13.5,10)
+
+\rput(8,10){\color{white}\small\bf Crisis}
+\rput(12,10){\color{white}\small\bf Climax}
+
+\psset{linestyle=none}
+\pstextpath[l]{\psline(0,5.5)(10,16)}{\color{white}\footnotesize Ordinary World}
+\pstextpath[l]{\psline(1,5.5)(11,16)}{\color{white}\footnotesize Call to Adventure}
+\pstextpath[l]{\psline(2,5.5)(12,16)}{\color{white}\footnotesize Refusal of Call}
+\pstextpath[l]{\psline(3,5.5)(13,16)}{\color{white}\footnotesize Mentor}
+\pstextpath[l]{\psline(4,5.5)(14,16)}{\color{white}\footnotesize First Threshold}
+\pstextpath[l]{\psline(5,5.5)(15,16)}{\color{white}\footnotesize Tests, Allies, Enemies}
+\pstextpath[l]{\psline(6,5.5)(16,16)}{\color{white}\footnotesize Inmost Cave}
+\pstextpath[l]{\psline(7,5.5)(17,16)}{\color{white}\footnotesize Ordeal}
+\pstextpath[l]{\psline(8,5.5)(18,16)}{\color{white}\footnotesize Reward}
+\pstextpath[l]{\psline(9,5.5)(19,16)}{\color{white}\footnotesize The Road Back}
+\pstextpath[l]{\psline(10,5.5)(20,16)}{\color{white}\footnotesize Resurrection}
+\pstextpath[l]{\psline(11,5.5)(21,16)}{\color{white}\footnotesize Return with Elixir}
+
+\end{pspicture}
+
+\ns{The Hero's Journey}
+
+\begin{pspicture}[showgrid=false,unit=0.75cm](0,0)(14,8)
+\psset{linecolor=cyan}
+\pscircle(8,5){4}
+\psline(4,5)(12,5)
+
+\psline[linestyle=dotted,linecolor=green](8,0)(8,11)
+\psline[linestyle=dotted,linecolor=green](0,5)(15,5)
+
+\psarc[linewidth=0.1]{->}(8,5){3.5}{20}{70}
+\psarc[linewidth=0.1]{->}(8,5){3.5}{110}{160}
+\psarc[linewidth=0.1]{->}(8,5){3.5}{200}{250}
+\psarc[linewidth=0.1]{->}(8,5){3.5}{290}{340}
+
+\rput(1,10){\color{green}\bf Act I}
+\rput(1,1){\color{green}\bf Act II}
+\rput(14,1){\color{green}\bf Act II}
+\rput(14,10){\color{green}\bf Act III}
+
+\rput(8,6){\color{white}\large\bf Ordinary World}
+\rput(8,4){\color{white}\large\bf Special World}
+
+\rput(8,9.5){\color{white}\tiny Ordinary World}
+\rput(5.5,8.75){\color{white}\tiny Call}
+\rput(4.5,8){\color{white}\tiny Refusal}
+\rput(3.5,6.5){\color{white}\tiny Mentor}
+\rput(2.5,5){\color{white}\tiny Cross Threshold}
+\rput(3.75,3){\color{white}\tiny  Tests}
+\rput(5,1.5){\color{white}\tiny Approach}
+\rput(8,0.75){\color{white}\tiny Ordeal}
+\rput(12,2.5){\color{white}\tiny Reward}
+\rput(13,5){\color{white}\tiny Road Back}
+\rput(12.75,7){\color{white}\tiny Resurrection}
+\rput(11,9){\color{white}\tiny Return with Elixir}
+
+\end{pspicture}
+
+\ns{Central Crisis}
+
+\begin{pspicture}[showgrid=false,unit=0.75cm](0,0)(14,8)
+\pstextpath[l]{\psline[linestyle=none](10,7)(13,8.5)}{\color{white}\tiny The Road Back}
+
+\psset{linecolor=cyan}
+\psline(0,4)(14,4)
+\psline[linewidth=0.1,linecolor=green](0,4)(2,5.5)(3,5)(7,8)(10,7)(13,8.5)(14,8)
+
+\rput(2,6){\color{white}\tiny First Threshold}
+\rput(7,8.5){\color{white}\tiny Ordeal/Crisis}
+\rput(13,9){\color{white}\tiny Climax}
+
+\psline[linestyle=dashed](2,5.5)(2,1)
+\psline[linestyle=dotted,linecolor=red](7,8)(7,1)
+\psline[linestyle=dashed](10,7)(10,1)
+
+\rput(1,2){\color{white}\bf Act I}
+\rput(7,2){\color{white}\bf Act II}
+\rput(12,2){\color{white}\bf Act III}
+
+
+
+\end{pspicture}
+
+
+\ns{Delayed Crisis}
+
+\begin{pspicture}[showgrid=false,unit=0.75cm](0,0)(14,8)
+\pstextpath[l]{\psline[linestyle=none](10,7)(13,9.5)}{\color{white}\tiny The Road Back}
+
+\psset{linecolor=cyan}
+\psline(0,4)(14,4)
+\psline[linewidth=0.1,linecolor=green](0,4)(2,5.5)(3,5)(9,8)(10,7)(13,9.5)(14,8)
+
+\rput(2,6){\color{white}\tiny First Threshold}
+\rput(9,8.5){\color{white}\tiny Delayed Crisis}
+\rput(13,10){\color{white}\tiny Climax}
+
+\psline[linestyle=dashed](2,5.5)(2,1)
+\psline[linestyle=dotted,linecolor=red](9,8)(9,1)
+\psline[linestyle=dashed](10,7)(10,1)
+
+\rput(1,2){\color{white}\bf Act I}
+\rput(7,2){\color{white}\bf Act II}
+\rput(12,2){\color{white}\bf Act III}
+
+\end{pspicture}
+
+\ns{10 Plots}
+\bi
+\item Monster in the House
+\item Golden Fleece
+\item Out of the Bottle
+\item Dude with a Problem
+\item Rites of Passage
+\item Buddy Love
+\item Whydunit
+\item The Fool Triumphant
+\item Institutionalized
+\item Superhero
+\ei
+
+\ns{Monster in the House}
+\bi
+\item {\sl Jaws}
+\item {\sl The Exorcist}
+\item {\sl Alien}
+\item {\sl Scream}
+\item {\sl Tremors}
+\ei
+Rules:
+\bi
+\item A confined space
+\item A sin (usually greed) committed
+\item Leads to creation of supernatural monster
+\item Run and hide
+\ei
+
+\ns{Golden Fleece}
+\bi
+\item {\sl Wizard of Oz}
+\item {\sl Planes, Trains and Automobiles}
+\item {\sl Road Trip}
+\item {\sl Back to the Future}
+\item {\sl Ocean's Eleven}
+\ei
+Rules:
+\bi
+\item The hero must learn from all the incidents.
+\ei
+
+
+\ns{Out of the Bottle}
+\bi
+\item {\sl Bruce Almighty}
+\item {\sl The Mask}
+\item {\sl Liar, Liar}
+\item {\sl Flubber}
+\ei
+Rules:
+{\small
+\bi
+\item If wish fulfillment: \\
+\ \ \ \ hero is underdog who learns magic isn't everything.
+\item If comeuppance: \\
+\ \ \ \ hero is arrogant SOB who learns magic is curse.
+\ei
+}
+
+\ns{Dude with a Problem}
+\bi
+\item {\sl Die Hard}
+\item {\sl Schindler's List}
+\item {\sl The Terminator}
+\item {\sl Titanic}
+\ei
+Rules:
+\bi
+\item Hero is ordinary guy who finds himself in extraordinary
+circumstances.
+\ei
+
+\ns{Rites of Passage}
+\bi
+\item {\sl 10}
+\item {\sl Days of Wine and Roses}
+\item {\sl 28 Days}
+\ei
+Rules:
+\bi
+\item Monster sneaks up on hero
+\item Hero's slow take realizing
+\item Victory won by giving in to forces stronger than ourselves
+\item Ultimate lesson:  {\em That's life!}
+\ei
+
+
+\ns{Buddy Love}
+\bi
+\item {\sl Butch Cassidy and the Sundance Kid}
+\item {\sl Wayne's World}
+\item {\sl Rain Man}
+\item {\sl Lethal Weapon}
+\item {\sl Bringing Up Baby}
+\item {\sl E.T.}
+\ei
+Rules:
+\bi
+\item They hate each other
+\item They realize they are better with each other than without
+\item They have to surrender their egos to win
+\ei
+
+
+\ns{Whydunit}
+\bi
+\item {\sl Chinatown}
+\item {\sl All the President's Men}
+\item {\sl Mystic River}
+\ei
+Rules:
+\bi
+\item The hero does not change
+\item The hero and the audience discover something about human nature
+they had not thought possible.
+\ei
+
+
+\ns{The Fool Triumphant}
+\bi
+\item Chaplin, Keaton, Lloyd
+\item {\sl Being There}
+\item {\sl Amadeus}
+\item {\sl Forrest Gump}
+\ei
+Rules:
+\bi
+\item The underdog starts chains of events that destroy a larger foe.
+\item Often there is an ``insider'' who can't believe the Fool
+gets away with it, but suffers the brunt of the abuse:
+Salieri, Lieutenant Dan, Herbert Lom in {\em The Pink Panther}
+\ei
+
+
+\ns{Institutionalized}
+\bi
+\item {\sl One Flew Over the Cuckoo's Nest}
+\item {\sl M*A*S*H}
+\item {\sl American Beauty}
+\item {\sl The Godfather}
+\ei 
+Rules:
+\bi
+\item A breakout character exposes the group as a fraud.
+\item Who is crazier, me or them?
+\ei
+
+\ns{Superhero}
+\bi
+\item {\sl Batman}
+\item {\sl Gladiator}
+\item {\sl A Beautiful Mind}
+\ei
+Rules:
+\bi
+\item Hero is an extraordinary guy who finds himself in ordinary
+circumstances. 
+\item Must establish sympathy for the superhero.
+\item The plight of being misunderstood.
+\ei
+
+\ns{Themes}
+\bi
+\item Outer space
+\item Fire/ice
+\item Dungeon/cavern/tomb
+\item Factory
+\item Jungle
+\item Spooky/haunted house/graveyard
+\item Pirate ship/town/island
+\item Gritty urban
+\item Space station
+\item Sewer
+\ei
+
+\ns{Goals}
+\bi
+\item Escape/survive\bi \item Pac Man\ei
+\item Explore\bi \item Zelda \ei
+\item Educate\bi \item Assassin's Creed \ei
+\item Moral\bi \item Bioshock \ei
+\ei
+
+\ns{Maps}
+\bi
+\item Two kinds of worlds:
+\bi
+\item Alleys
+\item Islands
+\ei
+\item Weenies:
+\bi\item Sleeping Beauty's Castle\ei
+\ei
+
+\ns{Alternatives to Walking}
+\bi
+\item Jumping
+\item Fighting
+\item Collecting
+\item Climbing
+\item Swimming
+\item Swinging
+\item Flying
+\item Escaping
+\item Sneaking
+\item Exploring
+\ei
+
+\ns{Use Fingers in Your Map}
+
+\begin{pspicture}[showgrid=false](10,7)
+\psset{linecolor=white}
+\psline(0,0)(0,4)(2,4)(2,1)(5,1)(5,2)(3,2)(3,4)(6,3)(8,3)(8,1)(9,1)(9,3)(10,4)(10,0)(0,0)
+\psline(0,7)(0,5)(3,5)(6,4)(6,6)(7,6)(7,4)(9,4)(10,5)(10,7)(0,7)
+\rput(0,4.5){\color{white}Start}
+\rput(10.5,4.5){\color{white}End}
+\end{pspicture}
+
+\ns{THE BLAKE SNYDER BEAT SHEET}
+
+\begin{enumerate}
+\item Opening Image (1)
+
+\item Theme Stated (5)
+
+\item Set-Up (1-10)
+
+\item Catalyst (12)
+
+\item Debate (12-25)
+
+\item Break into Two (25
+
+\item B Story (30)
+
+\item Fun and Games (30-55)
+
+\item Midpoint (55)
+
+\item Bad Guys Close In (55-75)
+
+\item All Is Lost (75)
+
+\item Dark Night of the Soul (75-85)
+
+\item Break into Three (85)
+
+\item Finale (85-110)
+
+\item Final Image (110)
+
+\end{enumerate}
+
+\end{slide}
+\end{document}
+ 
