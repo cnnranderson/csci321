@@ -55,10 +55,10 @@
 \headcommand {\beamer@framepages {27}{27}}
 \headcommand {\slideentry {0}{0}{28}{28/28}{}{0}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\slideentry {0}{0}{29}{29/30}{}{0}}
-\headcommand {\beamer@framepages {29}{30}}
-\headcommand {\slideentry {0}{0}{30}{31/31}{}{0}}
-\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {0}{0}{29}{29/29}{}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {0}{0}{30}{30/31}{}{0}}
+\headcommand {\beamer@framepages {30}{31}}
 \headcommand {\slideentry {0}{0}{31}{32/32}{}{0}}
 \headcommand {\beamer@framepages {32}{32}}
 \headcommand {\slideentry {0}{0}{32}{33/33}{}{0}}
@@ -127,10 +127,10 @@
 \headcommand {\beamer@framepages {64}{64}}
 \headcommand {\slideentry {0}{0}{64}{65/65}{}{0}}
 \headcommand {\beamer@framepages {65}{65}}
-\headcommand {\slideentry {0}{0}{65}{66/71}{}{0}}
-\headcommand {\beamer@framepages {66}{71}}
-\headcommand {\slideentry {0}{0}{66}{72/72}{}{0}}
-\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\slideentry {0}{0}{65}{66/66}{}{0}}
+\headcommand {\beamer@framepages {66}{66}}
+\headcommand {\slideentry {0}{0}{66}{67/72}{}{0}}
+\headcommand {\beamer@framepages {67}{72}}
 \headcommand {\slideentry {0}{0}{67}{73/73}{}{0}}
 \headcommand {\beamer@framepages {73}{73}}
 \headcommand {\slideentry {0}{0}{68}{74/74}{}{0}}
@@ -141,12 +141,14 @@
 \headcommand {\beamer@framepages {76}{76}}
 \headcommand {\slideentry {0}{0}{71}{77/77}{}{0}}
 \headcommand {\beamer@framepages {77}{77}}
-\headcommand {\slideentry {0}{0}{72}{78/80}{}{0}}
-\headcommand {\beamer@framepages {78}{80}}
-\headcommand {\slideentry {0}{0}{73}{81/86}{}{0}}
-\headcommand {\beamer@framepages {81}{86}}
-\headcommand {\beamer@partpages {1}{86}}
-\headcommand {\beamer@subsectionpages {1}{86}}
-\headcommand {\beamer@sectionpages {1}{86}}
-\headcommand {\beamer@documentpages {86}}
-\headcommand {\def \inserttotalframenumber {73}}
+\headcommand {\slideentry {0}{0}{72}{78/78}{}{0}}
+\headcommand {\beamer@framepages {78}{78}}
+\headcommand {\slideentry {0}{0}{73}{79/81}{}{0}}
+\headcommand {\beamer@framepages {79}{81}}
+\headcommand {\slideentry {0}{0}{74}{82/87}{}{0}}
+\headcommand {\beamer@framepages {82}{87}}
+\headcommand {\beamer@partpages {1}{87}}
+\headcommand {\beamer@subsectionpages {1}{87}}
+\headcommand {\beamer@sectionpages {1}{87}}
+\headcommand {\beamer@documentpages {87}}
+\headcommand {\def \inserttotalframenumber {74}}
