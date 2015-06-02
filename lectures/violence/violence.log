@@ -1,0 +1,727 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.1.23)  2 JUN 2015 10:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**violence
+(./violence.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texmf/tex/latex/prosper/prosper.cls
+Document Class: prosper 2003/03/20, v. 1.6
+(c) 2000-2003 Frederic Goualard, IRIN, France
+ and Peter Møller Neergaard, Boston Univ., USA
+CVSId: $Id: prosper.cls,v 1.25 2003/02/21 18:32:56 exupery Exp $
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+(/usr/share/texlive/texmf-dist/tex/latex/seminar/seminar.cls
+Document Class: seminar 2014/01/17, 1.61
+Documentclass: `seminar' v1.61 <2014/01/17> (tvz,hv)
+(/usr/share/texlive/texmf-dist/tex/latex/pst-ovl/pst-ovl.sty
+Package: pst-ovl 2013/07/08 v0.01 LaTeX wrapper for `pst-ovl' (HV)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-ovl/pst-ovl.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+\XKV@depth=\count79
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count80
+\pstFP@xia=\count81
+\pstFP@xib=\count82
+\pstFP@xfa=\count83
+\pstFP@xfb=\count84
+\pstFP@rega=\count85
+\pstFP@regb=\count86
+\pstFP@regs=\count87
+\pstFP@times=\count88
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks17
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks20
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+\pgffor@iter=\dimen104
+\pgffor@skip=\dimen105
+\pgffor@stack=\toks21
+\pgffor@toks=\toks22
+)
+\psLoopIndex=\count89
+
+`PSTricks' v2.51  <2014/02/03> (tvz)
+\pst@dima=\dimen106
+\pst@dimb=\dimen107
+\pst@dimc=\dimen108
+\pst@dimd=\dimen109
+\pst@dimg=\dimen110
+\pst@dimh=\dimen111
+\pst@dimm=\dimen112
+\pst@dimn=\dimen113
+\pst@dimo=\dimen114
+\pst@dimp=\dimen115
+\pst@hbox=\box26
+\pst@ibox=\box27
+\pst@boxg=\box28
+\pst@cnta=\count90
+\pst@cntb=\count91
+\pst@cntc=\count92
+\pst@cntd=\count93
+\pst@cntg=\count94
+\pst@cnth=\count95
+\pst@cntm=\count96
+\pst@cntn=\count97
+\pst@cnto=\count98
+\pst@cntp=\count99
+\@zero=\count100
+\pst@toks=\toks23
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen116
+\psxunit=\dimen117
+\psyunit=\dimen118
+\pst@C@@rType=\count101
+\pslinewidth=\dimen119
+\psk@startLW=\dimen120
+\psk@endLW=\dimen121
+\pst@customdefs=\toks24
+\pslinearc=\dimen122
+\pst@symbolStep=\dimen123
+\pst@symbolWidth=\dimen124
+\pst@symbolLinewidth=\dimen125
+\everypsbox=\toks25
+\psframesep=\dimen126
+\pslabelsep=\dimen127
+\sh@wgridXunit=\dimen128
+\sh@wgridYunit=\dimen129
+\pst@shift=\dimen130
+)
+`pst-ovl' v0.04, 2013/12/28 (tvz,hv)
+\theoverlaybox=\box29
+)
+File: pst-ovl.tex 2013/07/08 v0.01 overlay macros `pst-ovl' (HV)
+)
+\slidewidth=\dimen131
+\slideheight=\dimen132
+\footheight=\dimen133
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/leqno.clo
+File: leqno.clo 1998/08/17 v1.1c Standard LaTeX option (left equation numbers)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count102
+\c@section=\count103
+\c@subsection=\count104
+\c@subsubsection=\count105
+\c@paragraph=\count106
+\c@subparagraph=\count107
+\c@figure=\count108
+\c@table=\count109
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/seminar/sem-page.sty)
+\before@document=\toks26
+\after@document=\toks27
+\before@enddocument=\toks28
+\c@slide=\count110
+\slide@count=\count111
+\@slidebox=\box30
+\not@slidebox=\box31
+\slide@hook=\toks29
+\after@slide=\toks30
+\slide@footins=\insert233
+\slide@listdepth=\count112
+\saved@specials=\box32
+\before@newslide=\toks31
+\after@slidepage=\toks32
+\slidesep=\skip43
+\c@note=\count113
+\slideframewidth=\dimen135
+\slideframesep=\dimen136
+\semin=\dimen137
+\semcm=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/seminar/semcolor.sty
+Style Option: `semcolor' for doc style `seminar' 1.02 <2014/01/17> (tvz)
+File: semcolor.sty 2014/01/17 v1.02 (tvz)
+) (/usr/share/texlive/texmf-dist/tex/latex/seminar/semlayer.sty
+\@@slidebox=\box33
+\c@overlay=\count114
+)
+(/usr/share/texlive/texmf-dist/tex/latex/seminar/seminar.bug)
+(/usr/share/texlive/texmf-dist/tex/latex/seminar/seminar.bg2
+seminar.bg2: various corrections for the Seminar document class
+added since seminar.bug and few add-ons for overlays
+(Version 2.2 of <Jan 16, 2014> (DG, hv))
+\Seminar@SlideBoxBackground=\box34
+) (/usr/share/texmf/tex/latex/prosper/seminar-bg2-lepennec.fix)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen139
+\Hy@linkcounter=\count115
+\Hy@pagecounter=\count116
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count117
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+
+
+Package hyperref Warning: Option `a4paper' is no longer used.
+
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 4319.
+Package hyperref Info: Option `pdfcenterwindow' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count118
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen140
+\Fld@menulength=\count119
+\Field@Width=\dimen141
+\Fld@charsize=\dimen142
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count120
+\c@Item=\count121
+\c@Hfootnote=\count122
+)
+
+Package hyperref Message: Driver: hdvips.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
+\pdf@docset=\toks33
+\pdf@box=\box35
+\pdf@toks=\toks34
+\pdf@defaulttoks=\toks35
+\HyField@AnnotCount=\count123
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip44
+))
+\theoverlays=\box36
+\c@overlaysCount=\count126
+\c@limitOverlays=\count127
+\@tempoLimit=\count128
+\slideWidth=\skip45
+\c@trueSlideCounter=\count129
+
+(/usr/share/texmf/tex/latex/prosper/PPRtroispoints.sty
+Package: PPRtroispoints 2000/04/17
+
+`Trois points' style for Prosper ---
+(c) 2000 Frederic Goualard, IRIN, France
+CVSId: $Id: PPRtroispoints.sty,v 1.3 2001/10/24 15:11:25 exupery Exp $
+ 
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks36
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pst-grad/pst-grad.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2013/12/12 v0.60 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+Package: pst-grad 2004/07/15 package wrapper for pst-grad.tex (hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-grad/pst-grad.tex
+`pst-grad' v1.06, 2006/11/27 (tvz,dg,hv))
+File: pst-grad.tex 2006/11/27 1.06 `pst-grad' (tvz)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/seminar/semhelv.sty
+Style Option: `semhelv' for the `seminar' doc style 1.4 <2000/05/08> (tvz)
+Modified by Stefan (see source for details)
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 8.20007pt on input line 186.
+))
+\c@item@step=\count130
+\c@overlay@page=\count131
+\c@nbAffected=\count132
+\c@savecountAffected=\count133
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count134
+\Gm@cntv=\count135
+\c@Gm@tempcnt=\count136
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks37
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pst-node/pst-node.sty
+Package: pst-node 2012/09/18 v1.01 LaTeX wrapper for `pst-node' (HV)
+Package: pst-node 2010/04/22 package wrapper for pst-node.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex
+ v1.32, 2014/02/03
+\psrow=\count137
+\pscol=\count138
+\psmatrixcnt=\count139
+\psrowsep=\skip46
+\pscolsep=\skip47
+\pst@args=\count140
+\num@pts=\count141
+\pst@argcnt=\count142
+)
+File: pst-node.tex 2014/02/03 1.32 `pst-node' (tvz,hv)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pst-tree/pst-tree.sty
+Package: pst-tree 2009/01/25 package wrapper for pst-tree.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-tree/pst-tree.tex
+ v1.12, 2011/02/28(tvz,dg,hv)
+\pstree@rootbox=\box37
+\pstree@box=\box38
+\psnodecnt=\count143
+\pstreelevel=\count144
+\pstreecnt=\count145
+\pstree@cnt=\count146
+\pstree@stop=\count147
+)
+File: pst-tree.tex 2011/02/28 1.12 `pst-tree' (tvz,hv)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+) (./violence.aux)
+\openout1 = `violence.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+\AtBeginShipoutBox=\box39
+Package hyperref Info: Link coloring OFF on input line 39.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count148
+)
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
+
+(./violence.out) (./violence.out)
+\@outlinefile=\write3
+\openout3 = `violence.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: a6paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 1:1
+* modes: 
+* h-part:(L,W,R)=(44.81355pt, 209.12683pt, 44.81355pt)
+* v-part:(T,H,B)=(63.16576pt, 294.76926pt, 63.16577pt)
+* \paperwidth=619.6113pt
+* \paperheight=873.35477pt
+* \textwidth=100.82991pt
+* \textheight=142.12216pt
+* \oddsidemargin=-13.23804pt
+* \evensidemargin=-13.23804pt
+* \topmargin=-39.23434pt
+* \headheight=17.42238pt
+* \headsep=17.42238pt
+* \topskip=4.82147pt
+* \footskip=26.13358pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=37.43417pt
+* \voffset=37.43417pt
+* \mag=2074
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 14.16972pt on input line 40.
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 11.80809pt on input line 40.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 40.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 40.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/helvetica/m/it' will be
+(Font)              scaled to size 8.20007pt on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 40.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 5.74005pt on input line 40.
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 4.10004pt on input line 40.
+ [1
+
+
+]
+File: deathraceconsole.eps Graphic file (type eps)
+
+<deathraceconsole.eps>
+File: deathrace.eps Graphic file (type eps)
+ <deathrace.eps> [2
+
+]
+File: nighttrap.eps Graphic file (type eps)
+ <nighttrap.eps> [3
+
+]
+File: mortalkombatarcade.eps Graphic file (type eps)
+
+<mortalkombatarcade.eps>
+File: mortalkombat.eps Graphic file (type eps)
+ <mortalkombat.eps> [4
+
+]
+File: lieberman.eps Graphic file (type eps)
+ <lieberman.eps>
+File: kohl.eps Graphic file (type eps)
+ <kohl.eps>
+[5
+
+]
+File: ratingsymbol_ec.eps Graphic file (type eps)
+ <ratingsymbol_ec.eps>
+File: ratingsymbol_e.eps Graphic file (type eps)
+ <ratingsymbol_e.eps>
+File: ratingsymbol_e10.eps Graphic file (type eps)
+ <ratingsymbol_e10.eps>
+File: ratingsymbol_t.eps Graphic file (type eps)
+
+<ratingsymbol_t.eps>
+File: ratingsymbol_m.eps Graphic file (type eps)
+ <ratingsymbol_m.eps>
+File: ratingsymbol_ao.eps Graphic file (type eps)
+ <ratingsymbol_ao.eps>
+File: ratingsymbol_rp.eps Graphic file (type eps)
+
+<ratingsymbol_rp.eps> [6
+
+]
+Overfull \hbox (1.17642pt too wide) in paragraph at lines 108--144
+[][] 
+ []
+
+[7
+
+]
+File: doomroom.eps Graphic file (type eps)
+ <doomroom.eps>
+File: columbine.eps Graphic file (type eps)
+ <columbine.eps>
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 151.
+ [8
+
+]
+File: everquest.eps Graphic file (type eps)
+ <everquest.eps> [9
+
+]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 168.
+ [10
+
+] [11
+
+]
+File: gtapolice.eps Graphic file (type eps)
+
+<gtapolice.eps> [12
+
+]
+File: gtadriveby.eps Graphic file (type eps)
+ <gtadriveby.eps> [13
+
+]
+File: counterstrike.eps Graphic file (type eps)
+ <counterstrike.eps> [14
+
+]
+File: mir.eps Graphic file (type eps)
+ <mir.eps>
+[15
+
+]
+File: wow.eps Graphic file (type eps)
+ <wow.eps> [16
+
+]
+File: starcraft.eps Graphic file (type eps)
+ <starcraft.eps> [17
+
+]
+File: gtasabox.eps Graphic file (type eps)
+ <gtasabox.eps> [18
+
+]
+File: clinton.eps Graphic file (type eps)
+ <clinton.eps>
+File: lieberman.eps Graphic file (type eps)
+
+<lieberman.eps>
+File: bayh.eps Graphic file (type eps)
+ <bayh.eps> [19
+
+]
+File: onkilling.eps Graphic file (type eps)
+ <onkilling.eps> [20
+
+]
+File: amygdala.eps Graphic file (type eps)
+ <amygdala.eps>
+LaTeX Font Info:    Font shape `OT1/helvetica/m/sl' in size <14.4> not availabl
+e
+(Font)              Font shape `OT1/helvetica/m/it' tried instead on input line
+ 285.
+LaTeX Font Info:    Font shape `OT1/helvetica/m/it' will be
+(Font)              scaled to size 11.80809pt on input line 285.
+
+Overfull \hbox (8.29594pt too wide) in paragraph at lines 285--286
+[][]  
+ []
+
+[21
+
+]
+LaTeX Font Info:    Font shape `OT1/courier/m/n' will be
+(Font)              scaled to size 14.18399pt on input line 293.
+ [22
+
+] [23
+
+] [24
+
+] [25
+
+] [26
+
+] [27
+
+] [28
+
+] [29
+
+] [30
+
+] [31
+
+] [32
+
+] [33
+
+] [34
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 390.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 390.
+
+(./violence.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 390.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 390.
+Package rerunfilecheck Info: File `violence.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 9644 strings out of 495029
+ 143408 string characters out of 6181523
+ 267110 words of memory out of 5000000
+ 12689 multiletter control sequences out of 15000+600000
+ 25720 words of font info for 48 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 51i,9n,56p,568b,764s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on violence.dvi (34 pages, 119808 bytes).
