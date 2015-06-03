@@ -1,0 +1,48 @@
+\documentclass{article}
+\pagestyle{empty}
+%\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{multicol}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{1em}
+\begin{document}
+
+\centerline{\bf CSCI 321, IF Game Specs, Spring 2014}
+
+{\bf Due date: Tuesday, June 3, midnight}
+
+\begin{itemize}
+\item
+Inform7 creates a {\bf folder} with a {\tt .inform} extension.  Zip
+this folder and submit to canvas.
+\item
+Clear out the {\bf Skein} except for one or two ``best'' paths through
+your game.  I will play your game briefly, but I want to be able to
+advance to any point without spending hours solving your puzzles.
+\item
+{\bf Bless} your best transcript, as well.  I will read the entire
+transcript. 
+\item There is no need for separate, printed, documentaiton for the IF
+  game.  If there are any special instructions, verbs, {\em etc.},
+  they should be printed out, in-game, before the play begins.
+\item
+Reread the general game specifications for things I'll look for in
+your game.  However, since this is interactive fiction, I will be
+looking for elements of {\em story} and {\em character}.
+\item
+Once again, if you want to call my attention to something, perhaps
+subtle, that you put into this game, place some autobiographical
+information about it in a comment block at the beginning of the game.
+[Comments are surrounded by square brackets in Inform7.]
+\item 
+Minimum game size:  2000 words.  You can see the word count in the
+``Errors'' panel after you run the game.  There is no minimum number
+of rooms, objects, {\em etc.} as different games have different
+requirements. 
+\end{itemize}
+
+
+
+\end{document}
+\end
