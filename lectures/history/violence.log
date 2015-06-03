@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.23)  3 JUN 2015 08:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.23)  3 JUN 2015 08:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1092,21 +1092,21 @@ Package pdftex.def Info: playstation.png used on input line 244.
 ] [22
 
 ]
-<clinton.png, id=633, 115.43124pt x 144.54pt>
+<clinton.png, id=633, 115.632pt x 144.54pt>
 File: clinton.png Graphic file (type png)
  <use clinton.png>
-Package pdftex.def Info: clinton.png used on input line 295.
-(pdftex.def)             Requested size: 57.71547pt x 72.2698pt.
+Package pdftex.def Info: clinton.png used on input line 298.
+(pdftex.def)             Requested size: 57.81586pt x 72.2698pt.
 File: lieberman.png Graphic file (type png)
 
 <use lieberman.png>
-Package pdftex.def Info: lieberman.png used on input line 295.
+Package pdftex.def Info: lieberman.png used on input line 298.
 (pdftex.def)             Requested size: 57.81584pt x 57.81584pt.
- <bayh.png, id=634, 58.2175pt x 72.27pt>
+ <bayh.png, id=634, 57.816pt x 72.27pt>
 File: bayh.png Graphic file (type png)
  <use bayh.png>
-Package pdftex.def Info: bayh.png used on input line 295.
-(pdftex.def)             Requested size: 58.21735pt x 72.2698pt.
+Package pdftex.def Info: bayh.png used on input line 298.
+(pdftex.def)             Requested size: 57.81584pt x 72.2698pt.
 
 [23
 
@@ -1115,84 +1115,84 @@ Package pdftex.def Info: bayh.png used on input line 295.
 ] [25
 
 ]
-<PEGI/149.png, id=715, 60.225pt x 79.29625pt>
+<PEGI/149.png, id=713, 60.225pt x 79.29625pt>
 File: PEGI/149.png Graphic file (type png)
  <use PEGI/149.png>
-Package pdftex.def Info: PEGI/149.png used on input line 339.
+Package pdftex.def Info: PEGI/149.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 59.47202pt.
 
-<PEGI/151.png, id=716, 60.225pt x 79.29625pt>
+<PEGI/151.png, id=714, 60.225pt x 79.29625pt>
 File: PEGI/151.png Graphic file (type png)
  <use PEGI/151.png>
-Package pdftex.def Info: PEGI/151.png used on input line 339.
+Package pdftex.def Info: PEGI/151.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 59.47202pt.
 
-<PEGI/154.png, id=717, 60.225pt x 79.29625pt>
+<PEGI/154.png, id=715, 60.225pt x 79.29625pt>
 File: PEGI/154.png Graphic file (type png)
  <use PEGI/154.png>
-Package pdftex.def Info: PEGI/154.png used on input line 339.
+Package pdftex.def Info: PEGI/154.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 59.47202pt.
 
-<PEGI/155.png, id=718, 60.225pt x 79.29625pt>
+<PEGI/155.png, id=716, 60.225pt x 79.29625pt>
 File: PEGI/155.png Graphic file (type png)
  <use PEGI/155.png>
-Package pdftex.def Info: PEGI/155.png used on input line 339.
+Package pdftex.def Info: PEGI/155.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 59.47202pt.
 
-<PEGI/156.png, id=719, 60.225pt x 79.29625pt>
+<PEGI/156.png, id=717, 60.225pt x 79.29625pt>
 File: PEGI/156.png Graphic file (type png)
  <use PEGI/156.png>
-Package pdftex.def Info: PEGI/156.png used on input line 339.
+Package pdftex.def Info: PEGI/156.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 59.47202pt.
 
-<PEGI/bad_language.png, id=720, 60.225pt x 60.225pt>
+<PEGI/bad_language.png, id=718, 60.225pt x 60.225pt>
 File: PEGI/bad_language.png Graphic file (type png)
 
 <use PEGI/bad_language.png>
-Package pdftex.def Info: PEGI/bad_language.png used on input line 339.
+Package pdftex.def Info: PEGI/bad_language.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 45.16862pt.
 
-<PEGI/discrimination.png, id=721, 60.225pt x 60.225pt>
+<PEGI/discrimination.png, id=719, 60.225pt x 60.225pt>
 File: PEGI/discrimination.png Graphic file (type png)
 
 <use PEGI/discrimination.png>
-Package pdftex.def Info: PEGI/discrimination.png used on input line 339.
+Package pdftex.def Info: PEGI/discrimination.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 45.16862pt.
- <PEGI/drugs.png, id=722, 60.225pt x 60.225pt>
+ <PEGI/drugs.png, id=720, 60.225pt x 60.225pt>
 File: PEGI/drugs.png Graphic file (type png)
 
 <use PEGI/drugs.png>
-Package pdftex.def Info: PEGI/drugs.png used on input line 339.
+Package pdftex.def Info: PEGI/drugs.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 45.16862pt.
- <PEGI/fear.png, id=723, 60.225pt x 60.225pt>
+ <PEGI/fear.png, id=721, 60.225pt x 60.225pt>
 File: PEGI/fear.png Graphic file (type png)
 
 <use PEGI/fear.png>
-Package pdftex.def Info: PEGI/fear.png used on input line 339.
+Package pdftex.def Info: PEGI/fear.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 45.16862pt.
- <PEGI/gambling.png, id=724, 60.225pt x 60.225pt>
+ <PEGI/gambling.png, id=722, 60.225pt x 60.225pt>
 File: PEGI/gambling.png Graphic file (type png)
 
 <use PEGI/gambling.png>
-Package pdftex.def Info: PEGI/gambling.png used on input line 339.
+Package pdftex.def Info: PEGI/gambling.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 45.16862pt.
- <PEGI/online.png, id=725, 60.225pt x 60.225pt>
+ <PEGI/online.png, id=723, 60.225pt x 60.225pt>
 File: PEGI/online.png Graphic file (type png)
 
 <use PEGI/online.png>
-Package pdftex.def Info: PEGI/online.png used on input line 339.
+Package pdftex.def Info: PEGI/online.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 45.16862pt.
- <PEGI/sex.png, id=726, 60.225pt x 60.225pt>
+ <PEGI/sex.png, id=724, 60.225pt x 60.225pt>
 File: PEGI/sex.png Graphic file (type png)
 
 <use PEGI/sex.png>
-Package pdftex.def Info: PEGI/sex.png used on input line 339.
+Package pdftex.def Info: PEGI/sex.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 45.16862pt.
- <PEGI/violence.png, id=727, 60.225pt x 60.225pt>
+ <PEGI/violence.png, id=725, 60.225pt x 60.225pt>
 File: PEGI/violence.png Graphic file (type png)
 
 <use PEGI/violence.png>
-Package pdftex.def Info: PEGI/violence.png used on input line 339.
+Package pdftex.def Info: PEGI/violence.png used on input line 346.
 (pdftex.def)             Requested size: 45.16862pt x 45.16862pt.
  [26
 
@@ -1200,21 +1200,21 @@ Package pdftex.def Info: PEGI/violence.png used on input line 339.
 6.png> <./PEGI/bad_language.png> <./PEGI/discrimination.png> <./PEGI/drugs.png>
  <./PEGI/fear.png> <./PEGI/gambling.png> <./PEGI/online.png> <./PEGI/sex.png> <
 ./PEGI/violence.png>]
-<onkilling.png, id=766, 217.81375pt x 308.15125pt>
+<onkilling.png, id=764, 217.81375pt x 308.15125pt>
 File: onkilling.png Graphic file (type png)
  <use onkilling.png>
-Package pdftex.def Info: onkilling.png used on input line 348.
+Package pdftex.def Info: onkilling.png used on input line 355.
 (pdftex.def)             Requested size: 108.9066pt x 154.07524pt.
  [27
 
- <./onkilling.png>] <amygdala.png, id=793, 318.18875pt x 131.49126pt>
+ <./onkilling.png>] <amygdala.png, id=791, 318.18875pt x 131.49126pt>
 File: amygdala.png Graphic file (type png)
 
 <use amygdala.png>
-Package pdftex.def Info: amygdala.png used on input line 356.
+Package pdftex.def Info: amygdala.png used on input line 363.
 (pdftex.def)             Requested size: 318.18796pt x 131.49092pt.
 
-Overfull \hbox (10.89809pt too wide) in paragraph at lines 356--356
+Overfull \hbox (10.89809pt too wide) in paragraph at lines 363--363
 []  
  []
 
@@ -1241,18 +1241,18 @@ Missing character: There is no ™ in font cmss10!
 ] [36
 
 ]
-<Antonin_Scalia,_SCOTUS_photo_portrait.png, id=1022, 185.69376pt x 231.86626pt>
+<Antonin_Scalia,_SCOTUS_photo_portrait.png, id=1020, 185.69376pt x 231.86626pt>
 File: Antonin_Scalia,_SCOTUS_photo_portrait.png Graphic file (type png)
 <use Antonin_Scalia,_SCOTUS_photo_portrait.png>
 Package pdftex.def Info: Antonin_Scalia,_SCOTUS_photo_portrait.png used on inpu
-t line 452.
+t line 459.
 (pdftex.def)             Requested size: 64.99377pt x 81.15439pt.
 
-<Justice-Thomas-2.png, id=1023, 364.36125pt x 411.5375pt>
+<Justice-Thomas-2.png, id=1021, 364.36125pt x 411.5375pt>
 File: Justice-Thomas-2.png Graphic file (type png)
 
 <use Justice-Thomas-2.png>
-Package pdftex.def Info: Justice-Thomas-2.png used on input line 452.
+Package pdftex.def Info: Justice-Thomas-2.png used on input line 459.
 (pdftex.def)             Requested size: 72.87096pt x 82.30603pt.
  [37
 
@@ -1266,11 +1266,11 @@ Package pdftex.def Info: Justice-Thomas-2.png used on input line 452.
 \tf@snm=\write8
 \openout8 = `violence.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 453.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 453.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 460.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 460.
  (./violence.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 453.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 453.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 460.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 460.
 Package rerunfilecheck Info: File `violence.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1281,7 +1281,7 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 453.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 460.
  ) 
 Here is how much of TeX's memory you used:
  15961 strings out of 495028
@@ -1298,9 +1298,9 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on violence.pdf (37 pages, 7131214 bytes).
+Output written on violence.pdf (37 pages, 7202147 bytes).
 PDF statistics:
- 1096 PDF objects out of 1200 (max. 8388607)
+ 1094 PDF objects out of 1200 (max. 8388607)
  945 compressed objects within 10 object streams
  75 named destinations out of 1000 (max. 500000)
  274 words of extra memory for PDF output out of 10000 (max. 10000000)
